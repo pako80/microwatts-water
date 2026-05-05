@@ -1,0 +1,63 @@
+.so_video_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	background-repeat: repeat;
+	z-index: 0;
+}
+.so_video_bg_row .panel-grid-cell {
+	position: relative;
+	z-index: 1;
+}
+
+/* Force white text on cell contents */
+.force-white-text,
+.force-white-text h1,
+.force-white-text h2,
+.force-white-text h3,
+.force-white-text h4,
+.force-white-text h5,
+.force-white-text h6,
+.force-white-text p,
+.force-white-text ul,
+.force-white-text ol,
+.force-white-text a:link,
+.force-white-text a:visited {
+	color: #FFF !important;
+}
+.force-white-text a:hover,
+.force-white-text a:active {
+	color: #DDD !important;
+}
+
+/* Add a text shadow to cell contents */
+.dark-text-shadow {
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3), 0 0 15px rgba(0,0,0,0.5);
+}
+.dark-text-shadow .circle-icon {
+	text-shadow: none;
+}
+/*
+     FILE ARCHIVED ON 17:22:58 May 24, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:35:32 May 05, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.413
+  exclusion.robots: 0.061
+  exclusion.robots.policy: 0.053
+  esindex: 0.006
+  cdx.remote: 31.409
+  LoadShardBlock: 190.13 (3)
+  PetaboxLoader3.resolve: 1232.298 (4)
+  PetaboxLoader3.datanode: 198.426 (5)
+  load_resource: 1269.173
+  loaddict: 128.881
+*/
