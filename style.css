@@ -993,11 +993,6 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-/* Make gallery images feel clickable */
-.gallery-item img {
-  cursor: zoom-in;
-  transition: opacity .2s, transform .2s;
-}
 
 .gallery-item img:hover {
   opacity: .9;
